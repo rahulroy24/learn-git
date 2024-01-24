@@ -6,86 +6,20 @@
             font-family: 'Bai Jamjuree', sans-serif;
         }
 
-        nav#my-nav {
-            padding: 20px 0;
+        
+        /* Balinder style  */
+
+        .container{
+            width:calc(100% - 20%);
+            margin:auto;
         }
 
-        nav#my-nav a.navbar-brand span {
+        .button{
+            background:#000;
+            padding: 20px 40px;
+            border-radius: 30px;
             color: #fff;
-            margin-left: 10px;
-            font-size: 22px;
-        }
-
-        form#my-navi a.nav-link.active {
-            color: #fff;
-            font-size: 20px;
-            margin: 0 20px 0px 0px;
-        }
-
-        form#my-navi a.nav-link:hover {
-            color: #d3b797;
-        }
-
-        button.btn {
-            background: #d1b08a;
-            padding: 12px 40px;
-            border-radius: 50px;
-            color: #fff;
-            font-size: 14px;
-            font-family: 'Ubuntu', sans-serif;
-            text-transform: capitalize;
-        }
-
-        .hero-section {
-            padding-bottom: 50px;
-            background: linear-gradient(to right, #ffffffed, #fff), url(https://i.imgur.com/I4ww7ED.png);
-            background-size: contain;
-            background-position: left;
-
-        }
-
-        .foot {
-            text-align: center;
-            padding: 30px 0;
-            border-top: 1px solid #d3b797;
-        }
-
-        ul.custom-footer li {
-            display: inline;
-            list-style: none;
-            border-right: 1px solid #fff;
-            padding: 0 10px 0 5px;
-        }
-
-        ul.custom-footer li:last-child {
-            border: none;
-        }
-
-        ul.custom-footer li a {
-            color: #fff;
-            text-decoration: none;
-
-        }
-
-        /* Second section */
-
-        .ft-section {
-            padding: 40px 0px 30px 0;
-        }
-
-        .ft-content-hero h2 {
-            color: #d1b08a;
-            text-align: center;
-            font-weight: bold;
-            font-size: 3rem;
-            margin-bottom: 0px;
-            text-transform: capitalize;
-            font-family: 'Ubuntu', sans-serif;
-        }
-
-        .ft-content-hero p {
-            color: #000;
-            text-align: center;
-            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            border: 0px;
         }
    
